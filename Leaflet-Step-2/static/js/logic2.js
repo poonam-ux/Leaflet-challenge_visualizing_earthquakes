@@ -38,7 +38,7 @@ var baseMaps = {
 // Create Overlay Object to Hold Overlay Layers
 var overlayMaps = {
     "Earthquakes": earthquakes,
-    "Fault Lines": tectonicPlates
+    "Tactonic Plates": tectonicPlates
 };
 
 // Create Map, Passing In satelliteMap & earthquakes as Default Layers to Display on Load
@@ -124,7 +124,7 @@ d3.json(earthquakesURL, function(earthquakeData) {
             // Add tectonicPlates Layer to the Map
             tectonicPlates.addTo(myMap);
             });
-            
+
     // Set Up Legend
     var legend = L.control({ position: "bottomright" });
     legend.onAdd = function() {
