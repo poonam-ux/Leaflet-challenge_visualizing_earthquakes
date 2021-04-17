@@ -45,4 +45,8 @@ The USGS wants you to plot a second data set on your map to illustrate the relat
 
 * Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
 
+### Tectonic Plates:
+
+![](https://github.com/poonam-ux/Leaflet-challenge_visualizing_earthquakes/blob/main/Images/step-2_tectonic_plates_sm.png)
+
 * Add layer controls to our map.
