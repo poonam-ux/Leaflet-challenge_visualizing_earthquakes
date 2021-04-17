@@ -17,6 +17,10 @@ Visit the USGS GeoJSON Feed page and pick a data set to visualize. You will be g
     * Include popups that provide additional information about the earthquake when a marker is clicked.
     * Create a legend that will provide context for your map data.
 
+![](https://github.com/poonam-ux/Leaflet-challenge_visualizing_earthquakes/blob/main/Images/step-1_basic_map_sm.png)
+
+![]()
+
 ## Level 2: More Data
 
 The USGS wants you to plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it alongside your original set of data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.
