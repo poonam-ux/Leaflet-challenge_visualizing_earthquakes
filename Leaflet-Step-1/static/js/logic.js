@@ -14,3 +14,44 @@ L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/
 
 // Load in geojson data
 var geoData = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
+
+//Grab data with d3
+d3.json(geoData, function (data) {
+    // This function returns the style data for each of the earthquakes we plot on
+	// the map. We pass the magnitude of the earthquake into two separate functions
+	// to calculate the color and radius.
+    function styleInfo(feature) {
+        return {
+            opacity: 1,
+            fillOpacity: 1,
+            fillColor: getColor(feature.properties.mag),
+            color: "#000000",
+            radius: getRadius(feature.properties.mag),
+            stroke: true,
+            weight: 0.5
+        };
+    }
+    
+    // This function determines the color of the marker based on the magnitude of the earthquake.
+	function getColor(magnitude) {
+		if (magnitude > 5) {
+			return "#ea2c2c";
+		}
+		if (magnitude > 4) {
+			return "#ea822c";
+		}
+		if (magnitude > 3) {
+			return "#ee9c00";
+		}
+		if (magnitude > 2) {
+			return "#eecc00";
+		}
+		if (magnitude > 1) {
+			return "#d4ee00";
+		}
+		return "#daf7a6";
+	}
+
+
+
+})
