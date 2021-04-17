@@ -39,6 +39,10 @@ The USGS wants you to plot a second data set on your map to illustrate the relat
 
 * Plot a second data set on our map.
 
+### Earthquake markers:
+
+![](https://github.com/poonam-ux/Leaflet-challenge_visualizing_earthquakes/blob/main/Images/step-2_earthquakes_markers%20_sm.png)
+
 * Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
 
 * Add layer controls to our map.
