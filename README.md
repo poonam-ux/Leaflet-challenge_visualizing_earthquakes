@@ -50,3 +50,7 @@ The USGS wants you to plot a second data set on your map to illustrate the relat
 ![](https://github.com/poonam-ux/Leaflet-challenge_visualizing_earthquakes/blob/main/Images/step-2_tectonic_plates_sm.png)
 
 * Add layer controls to our map.
+
+### Legends:
+
+![](https://github.com/poonam-ux/Leaflet-challenge_visualizing_earthquakes/blob/main/Images/step-2_legends_sm.png)
