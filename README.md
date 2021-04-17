@@ -17,9 +17,13 @@ Visit the USGS GeoJSON Feed page and pick a data set to visualize. You will be g
     * Include popups that provide additional information about the earthquake when a marker is clicked.
     * Create a legend that will provide context for your map data.
 
+### Basic Map: 
+
 ![](https://github.com/poonam-ux/Leaflet-challenge_visualizing_earthquakes/blob/main/Images/step-1_basic_map_sm.png)
 
-![]()
+### Earthquake markers: 
+
+![](https://github.com/poonam-ux/Leaflet-challenge_visualizing_earthquakes/blob/main/Images/step-1_earthquakes_markers_sm.png)
 
 ## Level 2: More Data
 
